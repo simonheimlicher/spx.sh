@@ -26,7 +26,7 @@ A fast, deterministic command-line tool that:
 - Provides instant (<100ms) status checks without LLM calls
 - Manages work sessions for context handoffs between agents
 
-**Repository**: [github.com/simonheimlicher/spx-cli](https://github.com/simonheimlicher/spx-cli)
+**Repository**: [github.com/simonheimlicher/spx-cli](https://github.com/simonheimlicher/spx-cli "spx CLI GitHub repository")
 
 ### SPX-Claude Marketplace
 
@@ -36,7 +36,7 @@ A Claude Code plugin marketplace providing:
 - Commands for git workflows and context management
 - Testing and specification writing guidance
 
-**Repository**: [github.com/simonheimlicher/spx-claude](https://github.com/simonheimlicher/spx-claude)
+**Repository**: [github.com/simonheimlicher/spx-claude](https://github.com/simonheimlicher/spx-claude "SPX-Claude GitHub repository")
 
 ## Why Spec-Driven Development?
 
@@ -62,7 +62,7 @@ SPX is open source under the MIT license. Contributions are welcome:
 
 ## Author
 
-SPX is created and maintained by [Simon Heimlicher](https://simon.heimlicher.com/about).
+SPX is created and maintained by [Simon Heimlicher](https://simon.heimlicher.com/about "Simon Heimlicher's website").
 
 ## License
 

@@ -4,4 +4,4 @@ title: Most shared articles
 weight: 200
 ---
 
-- [About](/about/)
+- [About](/about/ "About the SPX project")

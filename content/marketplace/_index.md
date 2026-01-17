@@ -128,7 +128,7 @@ Meta-skills for Claude Code plugin development.
 
 ## Build Your Own Marketplace
 
-Want to create your own plugin marketplace? Fork the [spx-claude repository](https://github.com/simonheimlicher/spx-claude) as a starting point.
+Want to create your own plugin marketplace? Fork the [spx-claude repository](https://github.com/simonheimlicher/spx-claude "SPX-Claude GitHub repository") as a starting point.
 
 ### Repository Structure
 
