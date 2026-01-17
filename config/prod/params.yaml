@@ -1,0 +1,5 @@
+# Only enable indexing for production
+robots:
+  index: true
+  indeximages: true
+  follow: true

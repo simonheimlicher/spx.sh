@@ -1,0 +1,101 @@
+canonicalBaseURL: https://spx.sh/
+
+siteAuthor: Simon Heimlicher
+authors:
+  simon-heimlicher:
+    last_name: Heimlicher
+    first_name: Simon
+    email: AUTHOR_EMAIL
+    name: Simon Heimlicher
+    profilepage: about
+
+mainSections:
+  - cli
+  - marketplace
+  - concepts
+
+masthead:
+  logo:
+    position: left
+    src: site-meta/spx-logo.svg
+  wordmark: SPX
+
+responsive:
+  breakpoints:
+    width:
+      mobile_menu: 60rem
+      narrow: 32rem
+
+assets:
+  styles:
+    split: true
+    fonts:
+      selfhosted: true
+      type:
+        default: sans
+      family:
+        sans: Concourse
+        serif: Valkyrie_B
+        mono: DM Mono
+
+  scripts:
+    optional:
+      mediumzoom: true
+
+taxonomyMaxYears: 5
+recentMaxYears: 5
+outdatedAfterYears: 5
+ephemeralSections:
+  - cli
+  - marketplace
+
+numberOfRecentArticles: 3
+numberOfFeaturedArticles: 3
+numberOfRelatedArticles: 5
+iconsDir: /
+
+sidebarTaxonomies: [tags]
+navListCurrentSectionForTypes:
+  - vitae
+navListCurrentSectionInSection:
+  - confidential
+  - application
+assetDownloadFolders:
+  - downloads
+home:
+  section: _index
+footer:
+  section: _footer
+  recentarticles: 3
+  social:
+    - github
+hidden:
+  sections:
+    - _error
+    - _index
+    - _footer
+  pathelements:
+    - confidential
+    - private
+    - hidden
+website:
+  name: spx.sh
+  tagline: Spec-Driven Development for AI Agents
+  description: |
+    SPX: Fast, deterministic workflow management for spec-driven development with Claude Code.
+  established: 2025
+  profile:
+    headline: About SPX
+    text: "Fast, deterministic CLI and Claude Code plugins for spec-driven development workflows"
+    link: Learn More
+    url: about
+image:
+  thumbnail:
+    - images/spx-og
+robots:
+  index: true
+  indeximages: true
+  follow: true
+social:
+  github:
+    id: simonheimlicher

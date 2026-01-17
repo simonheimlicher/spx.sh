@@ -1,0 +1,17 @@
+home: Home
+about me: About me
+hugo:
+  other: Hugo
+methodology:
+  one: Methodology
+  other: Methodologies
+talent:
+  other: Talent
+performance:
+  other: Performance
+project management:
+  other: Project management
+product management:
+  other: Product management
+vscode:
+  other: VSCode

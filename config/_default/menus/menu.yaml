@@ -1,0 +1,23 @@
+main:
+  - identifier: home
+    name: Home
+    url: /
+    weight: 10
+  - identifier: cli
+    name: CLI
+    url: /cli/
+    weight: 20
+  - identifier: marketplace
+    name: Marketplace
+    url: /marketplace/
+    weight: 30
+  - identifier: concepts
+    name: Concepts
+    url: /concepts/
+    weight: 40
+  - identifier: github
+    name: GitHub
+    url: https://github.com/simonheimlicher
+    weight: 90
+    params:
+      external: true
