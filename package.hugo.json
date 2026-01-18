@@ -35,9 +35,9 @@
     "build:workspace:stage": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.stage.work HUGO_ENVIRONMENT=stage $(hvm status --printExecPathCached) --gc",
     "build:workspace": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.main.work HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) --gc --minify",
     "clean": "rm -rf public resources/_gen",
-    "devel": "dotenvx run -- env HUGO_ENVIRONMENT=devel $(hvm status --printExecPathCached) server --port=1613 --disableFastRender",
-    "stage": "dotenvx run -- env HUGO_ENVIRONMENT=stage $(hvm status --printExecPathCached) server --port=1614 --disableFastRender",
-    "prod": "dotenvx run -- env HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) server --port=1615 --disableFastRender",
+    "devel": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.devel.work HUGO_ENVIRONMENT=devel $(hvm status --printExecPathCached) server --port=1613 --disableFastRender",
+    "stage": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.stage.work HUGO_ENVIRONMENT=stage $(hvm status --printExecPathCached) server --port=1614 --disableFastRender",
+    "prod": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.main.work HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) server --port=1615 --disableFastRender",
     "rebuild:workspace": "npm run clean && npm run build:workspace"
   }
 }
