@@ -35,7 +35,6 @@ pagination.pagerSize: 20
 outputs:
   home:
     - HTML
-    - redir
   page:
     - HTML
   section:
@@ -49,26 +48,6 @@ mediaTypes:
     delimiter: ""
 outputFormats:
   _merge: deep
-  redir:
-    mediatype: text/redirects
-    baseName: _redirects
-    isPlainText: true
-    notAlternative: true
-  redir_canonical:
-    mediatype: text/redirects
-    baseName: _redirects_canonical
-    isPlainText: true
-    notAlternative: true
-  urls:
-    mediatype: text/urls
-    baseName: _urls
-    isPlainText: true
-    notAlternative: true
-  aliases:
-    mediatype: text/aliases
-    baseName: _aliases
-    isPlainText: true
-    notAlternative: true
 
 markup:
   _merge: deep
