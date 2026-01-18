@@ -19,17 +19,14 @@ build:
 cascade:
   - build:
       publishResources: false
+image:
+  feature: images/spx-cli-vs-tree
+
 ---
 
-## What is SPX?
+{{% lede-initial %}} **SPX** is a framework that accelerates Spec-Driven Development (SDD) by combining a blazingly fast command-line interface (CLI) with Claude Code plugins to streamline AI engineering.
 
-{{% lede-initial %}}SPX is a framework for **Spec-Driven Development** — a methodology that combines fast, deterministic CLI tooling with Claude Code plugins to streamline AI-assisted development workflows.{{% /lede-initial %}}
-
-### The Problem
-
-When working with AI coding assistants, checking the status of work items typically requires expensive LLM calls that take 1-2 minutes and consume tokens. This creates friction in the development loop.
-
-### The Solution
+Spec-Driven Development (SDD) is based on the premise that human-language specification, and not programming code, is the most valuable asset of a software engineering organization. When working with AI coding assistants, checking the status of work items typically requires expensive LLM calls that take 1-2 minutes and consume tokens. This creates friction in the development loop.{{% /lede-initial %}}
 
 SPX provides:
 
@@ -38,7 +35,7 @@ SPX provides:
 
 {{< panel page="/cli" float=left relativewidth=45 >}}
 
-### Fast CLI Tooling
+## Fast CLI Tooling
 
 The `spx` command-line tool scans your `specs/` directory and provides instant, deterministic status analysis of capabilities, features, and stories.
 
@@ -52,7 +49,7 @@ spx session handoff
 
 {{< panel page="/marketplace" float=right relativewidth=45 >}}
 
-### Claude Code Plugins
+## Claude Code Plugins
 
 The SPX-Claude marketplace provides skills and commands for TypeScript, Python, testing, specifications, and productivity workflows.
 
