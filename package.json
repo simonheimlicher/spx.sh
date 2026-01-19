@@ -1,33 +1,31 @@
 {
   "comments": {
     "dependencies": {
-      "autoprefixer": "project",
-      "lazysizes": "project",
-      "medium-zoom": "project",
+      "medium-zoom": "github.com/simonheimlicher/hugo-claris",
       "posthog-js": "github.com/simonheimlicher/hugo-claris"
     },
     "devDependencies": {
-      "@fullhuman/postcss-purgecss": "project",
-      "autoprefixer": "project",
+      "@dotenvx/dotenvx": "project",
+      "@fullhuman/postcss-purgecss": "github.com/simonheimlicher/hugo-claris",
+      "autoprefixer": "github.com/simonheimlicher/hugo-claris",
       "cssnano": "github.com/simonheimlicher/hugo-claris",
-      "postcss": "project",
-      "postcss-cli": "project",
-      "postcss-prune-var": "project",
-      "postcss-var-optimize": "project"
+      "postcss": "github.com/simonheimlicher/hugo-claris",
+      "postcss-cli": "github.com/simonheimlicher/hugo-claris",
+      "postcss-prune-var": "github.com/simonheimlicher/hugo-claris",
+      "postcss-var-optimize": "github.com/simonheimlicher/hugo-claris"
     }
   },
   "dependencies": {
-    "autoprefixer": "^10.4.14",
-    "lazysizes": "^5.3.2",
     "medium-zoom": "^1.0.6",
     "posthog-js": "^1.94.2"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@dotenvx/dotenvx": "^1.51.4",
+    "@fullhuman/postcss-purgecss": "^7.0.2",
     "autoprefixer": "^10.4.14",
-    "cssnano": "^7.0.6",
+    "cssnano": "^7.1.2",
     "postcss": "^8.4.23",
-    "postcss-cli": "^8.3.1",
+    "postcss-cli": "^11.0.1",
     "postcss-prune-var": "^1.1.1",
     "postcss-var-optimize": "^8.1.0"
   },
@@ -39,6 +37,7 @@
     "build:workspace:stage": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.stage.work HUGO_ENVIRONMENT=stage $(hvm status --printExecPathCached) --gc",
     "clean": "rm -rf public resources/_gen",
     "devel": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.devel.work HUGO_ENVIRONMENT=devel $(hvm status --printExecPathCached) server --port=1613 --disableFastRender",
+    "mod-pack:devel": "HUGO_MODULE_WORKSPACE=go.devel.work HUGO_ENVIRONMENT=devel $(hvm status --printExecPathCached) mod npm pack",
     "prod": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.main.work HUGO_ENVIRONMENT=prod $(hvm status --printExecPathCached) server --port=1615 --disableFastRender",
     "rebuild:workspace": "npm run clean && npm run build:workspace",
     "stage": "dotenvx run -- env HUGO_MODULE_WORKSPACE=go.stage.work HUGO_ENVIRONMENT=stage $(hvm status --printExecPathCached) server --port=1614 --disableFastRender"
