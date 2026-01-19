@@ -28,3 +28,4 @@ go.work
 !.hugolit/.gitkeep
 .claude/settings.local.json
 .spx/sessions/
+.playwright-mcp/

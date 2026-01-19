@@ -33,7 +33,7 @@ SPX provides:
 - **spx CLI**: Instant status checks in under 100ms with zero token cost
 - **SPX-Claude Marketplace**: Pre-built Claude Code plugins for testing, coding, and documentation workflows
 
-{{< panel page="/cli" float=left relativewidth=45 >}}
+{{< panel page="/cli" float=left relativewidth=40 >}}
 
 ## Fast CLI Tooling
 
@@ -47,7 +47,7 @@ spx session handoff
 
 {{< /panel >}}
 
-{{< panel page="/marketplace" float=right relativewidth=45 >}}
+{{< panel page="/marketplace" float=right relativewidth=40 >}}
 
 ## Claude Code Plugins
 
